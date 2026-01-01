@@ -1,0 +1,27 @@
+# Build output
+build/bin/
+*.exe
+
+# Dependencies
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.log
+*.tmp
+
+# Test scripts
+break_network.bat
+restore_network.bat
+proxy_backup.reg
+
+# Package lock hash
+frontend/package.json.md5
