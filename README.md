@@ -4,33 +4,33 @@
 
 ## 下载
 
-� **[点击网下载最新版本](https://github.com/ccx0058/network-rescue-toolkit/releases/latest/download/NetworkRescue.exe)**
+**[点击下载最新版本](https://github.com/ccx0058/network-rescue-toolkit/releases/latest/download/NetworkRescue.exe)**
 
 或前往 [Releases 页面](https://github.com/ccx0058/network-rescue-toolkit/releases) 下载历史版本。
 
-> ⚠️ 注意：程序需要管理员权限运行，首次启动会弹出 UAC 提示，请点击"是"。
+> 注意：程序需要管理员权限运行，首次启动会弹出 UAC 提示，请点击"是"。
 
 ## 功能特性
 
-### � 断网急救（一键诊断修复）
-- � 网络适配 器检测 - 检测网卡状态、驱动是否正常
-- 🌐 IP 配置检测 - 检查 IP 地址、DHCP 配置
-- �  DNS 服务检测 - 测试 DNS 解析功能和响应时间
-- 📝 HOSTS 文件检测 - 检查是否有可疑的域名劫持
-- � 代理设置检测 -  检查系统代理配置
-- �️ 网络连通性检测 - 多目标测试互联网连接状态
+### 断网急救（一键诊断修复）
+- 网络适配器检测 - 检测网卡状态、驱动是否正常
+- IP 配置检测 - 检查 IP 地址、DHCP 配置
+- DNS 服务检测 - 测试 DNS 解析功能和响应时间
+- HOSTS 文件检测 - 检查是否有可疑的域名劫持
+- 代理设置检测 - 检查系统代理配置
+- 网络连通性检测 - 多目标测试互联网连接状态
 
-### � 网络工息具箱
-- � P启ing 测试 - 支持域名/IP/URL 自动解析
-- 🌐 一键切换 DNS - 支持10个国内外DNS服务商
-- 🔄 刷新 DNS 缓存 - 清除本地 DNS 缓存
-- ⚡ 重置网络组件 - 重置 Winsock 和 TCP/IP 协议栈
-- 🔃 释放/续约 IP - 重新获取 DHCP 分配的 IP
-- 🛤️ 路由追踪 - Tracert 查看数据包路由路径
-- 🔌 端口检测 - 检测指定主机端口是否开放
-- 📋 网卡详细信息 - 查看 IP、MAC、网关、DNS 等配置
-- 🔧 重启网络服务 - 重启 DHCP、DNS 缓存等系统服务
-- 🛡️ 防火墙状态 - 查看 Windows 防火墙状态
+### 网络工具箱
+- Ping 测试 - 支持域名/IP/URL 自动解析
+- 一键切换 DNS - 支持10个国内外DNS服务商
+- 刷新 DNS 缓存 - 清除本地 DNS 缓存
+- 重置网络组件 - 重置 Winsock 和 TCP/IP 协议栈
+- 释放/续约 IP - 重新获取 DHCP 分配的 IP
+- 路由追踪 - Tracert 查看数据包路由路径
+- 端口检测 - 检测指定主机端口是否开放
+- 网卡详细信息 - 查看 IP、MAC、网关、DNS 等配置
+- 重启网络服务 - 重启 DHCP、DNS 缓存等系统服务
+- 防火墙状态 - 查看 Windows 防火墙状态
 
 ### 支持的 DNS 服务商
 | 服务商 | 主 DNS | 备用 DNS |
@@ -77,7 +77,7 @@ go install github.com/wailsapp/wails/v2/cmd/wails@latest
 wails build
 ```
 
-构建完成后，可执行文件位于 `build/bin/NetworkRescue.exe`
+构建完成后，可执行文件位于 `build/bin/`
 
 ## 使用说明
 
