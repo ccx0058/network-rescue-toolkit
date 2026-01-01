@@ -4,7 +4,7 @@
 
 ## 下载
 
-� **[点击网下载最新版本](https://github.com/ccx0058/network-rescue-toolkit/releases/latest/download/网络急救工具箱.exe)**
+� **[点击网下载最新版本](https://github.com/ccx0058/network-rescue-toolkit/releases/latest/download/NetworkRescue.exe)**
 
 或前往 [Releases 页面](https://github.com/ccx0058/network-rescue-toolkit/releases) 下载历史版本。
 
@@ -77,7 +77,7 @@ go install github.com/wailsapp/wails/v2/cmd/wails@latest
 wails build
 ```
 
-构建完成后，可执行文件位于 `build/bin/网络急救工具箱.exe`
+构建完成后，可执行文件位于 `build/bin/NetworkRescue.exe`
 
 ## 使用说明
 
